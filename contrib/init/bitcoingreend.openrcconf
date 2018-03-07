@@ -1,25 +1,25 @@
-# /etc/conf.d/bitcoingreend: config file for /etc/init.d/bitcoingreend
+# /etc/conf.d/bitcoinneutrald: config file for /etc/init.d/bitcoinneutrald
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/bitcoingreen/bitcoingreen.conf"
+#BITCOIND_CONFIGFILE="/etc/bitcoinneutral/bitcoinneutral.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/bitcoingreend"
+#BITCOIND_PIDDIR="/var/run/bitcoinneutrald"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/bitcoingreend.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/bitcoinneutrald.pid"
 
-# Where to write bitcoingreend data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/bitcoingreend"
+# Where to write bitcoinneutrald data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/bitcoinneutrald"
 
-# User and group to own bitcoingreend process
-#BITCOIND_USER="bitcoingreen"
-#BITCOIND_GROUP="bitcoingreen"
+# User and group to own bitcoinneutrald process
+#BITCOIND_USER="bitcoinneutral"
+#BITCOIND_GROUP="bitcoinneutral"
 
-# Path to bitcoingreend executable
-#BITCOIND_BIN="/usr/bin/bitcoingreend"
+# Path to bitcoinneutrald executable
+#BITCOIND_BIN="/usr/bin/bitcoinneutrald"
 
-# Nice value to run bitcoingreend under
+# Nice value to run bitcoinneutrald under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

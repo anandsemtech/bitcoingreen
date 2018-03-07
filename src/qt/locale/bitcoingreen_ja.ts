@@ -257,6 +257,6 @@
     </message>
     </context>
 <context>
-    <name>bitcoingreen-core</name>
+    <name>bitcoinneutral-core</name>
     </context>
 </TS>

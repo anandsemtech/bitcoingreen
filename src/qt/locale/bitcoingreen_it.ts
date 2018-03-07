@@ -62,12 +62,12 @@
         <translation>Indirizzi di ricezione</translation>
     </message>
     <message>
-        <source>These are your BITG addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono gli indirizzi BITG per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
+        <source>These are your BTCN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questi sono gli indirizzi BTCN per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
     </message>
     <message>
-        <source>These are your BITG addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono gli indirizzi BITG per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
+        <source>These are your BTCN addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono gli indirizzi BTCN per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>Bitcoin Green will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BITGs from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin Green verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi BITG dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>Bitcoin Neutral will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BTCNs from being stolen by malware infecting your computer.</source>
+        <translation>Bitcoin Neutral verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi BTCN dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Confermi di voler crittografare il portafoglio?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITG&lt;/b&gt;!</source>
-        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI BITG&lt;7b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTCN&lt;/b&gt;!</source>
+        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI BTCN&lt;7b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -235,16 +235,16 @@
         <translation>&amp;BIP 38 Criptato</translation>
     </message>
     <message>
-        <source>Enter a BITG Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Inserisci un indirizzo BITG che desideri crittografare utilizzando BIP 38. Inserisci una passphrase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
+        <source>Enter a BTCN Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Inserisci un indirizzo BTCN che desideri crittografare utilizzando BIP 38. Inserisci una passphrase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Indirizzo:</translation>
     </message>
     <message>
-        <source>The BITG address to sign the message with</source>
-        <translation>L'indirizzo BITG per firmare il messaggio con</translation>
+        <source>The BTCN address to sign the message with</source>
+        <translation>L'indirizzo BTCN per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +275,8 @@
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this BITG address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo BITG</translation>
+        <source>Sign the message to prove you own this BTCN address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo BTCN</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -299,12 +299,12 @@
         <translation>Immettere la chiave privata codificata BIP 38. Inserire la passphrase nella casella centrale. Fare clic su Decripta Chiave per calcolare la chiave privata. Dopo che la chiave viene decrittata, cliccando su "Importa indirizzo" verrà aggiunta questa chiave privata al portafoglio.</translation>
     </message>
     <message>
-        <source>The BITG address the message was signed with</source>
-        <translation>L'indirizzo BITG con cui è stato firmato il messaggio</translation>
+        <source>The BTCN address the message was signed with</source>
+        <translation>L'indirizzo BTCN con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified BITG address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo BITG specificato</translation>
+        <source>Verify the message to ensure it was signed with the specified BTCN address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo BTCN specificato</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -586,16 +586,16 @@
         <translation>Schede degli strumenti</translation>
     </message>
     <message>
-        <source>Bitcoin Green Core</source>
-        <translation>Bitcoin Green Core</translation>
+        <source>Bitcoin Neutral Core</source>
+        <translation>Bitcoin Neutral Core</translation>
     </message>
     <message>
-        <source>Send coins to a BITG address</source>
-        <translation>Invia monete all'indirizzo BITG</translation>
+        <source>Send coins to a BTCN address</source>
+        <translation>Invia monete all'indirizzo BTCN</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoingreen: URIs)</source>
-        <translation>Richiedi pagamenti (genera codici QR e bitcoingreen: URIs)</translation>
+        <source>Request payments (generates QR codes and bitcoinneutral: URIs)</source>
+        <translation>Richiedi pagamenti (genera codici QR e bitcoinneutral: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -606,24 +606,24 @@
         <translation>Esplora i masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Green Core</source>
-        <translation>&amp;Informazioni Bitcoin Green Core</translation>
+        <source>&amp;About Bitcoin Neutral Core</source>
+        <translation>&amp;Informazioni Bitcoin Neutral Core</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin Green Core</source>
-        <translation>Visualizza informazioni su Bitcoin Green Core</translation>
+        <source>Show information about Bitcoin Neutral Core</source>
+        <translation>Visualizza informazioni su Bitcoin Neutral Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Bitcoin Green</source>
-        <translation>Modifica le opzioni di configurazione per Bitcoin Green</translation>
+        <source>Modify configuration options for Bitcoin Neutral</source>
+        <translation>Modifica le opzioni di configurazione per Bitcoin Neutral</translation>
     </message>
     <message>
-        <source>Sign messages with your BITG addresses to prove you own them</source>
-        <translation>Firma i messaggi con i tuoi indirizzi BITG per dimostrare di essere il proprietario </translation>
+        <source>Sign messages with your BTCN addresses to prove you own them</source>
+        <translation>Firma i messaggi con i tuoi indirizzi BTCN per dimostrare di essere il proprietario </translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified BITG addresses</source>
-        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi BITG specifici</translation>
+        <source>Verify messages to ensure they were signed with specified BTCN addresses</source>
+        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi BTCN specifici</translation>
     </message>
     <message>
         <source>Encrypt and decrypt private keys using a passphrase</source>
@@ -634,16 +634,16 @@
         <translation>Impostazioni MultiSend</translation>
     </message>
     <message>
-        <source>Open a bitcoingreen: URI or payment request</source>
-        <translation>Apri un bitcoingreen: URI o richiesta di pagamento</translation>
+        <source>Open a bitcoinneutral: URI or payment request</source>
+        <translation>Apri un bitcoinneutral: URI o richiesta di pagamento</translation>
     </message>
     <message>
         <source>Block explorer window</source>
         <translation>Finestra Block Explorer</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Green Core help message to get a list with possible Bitcoin Green command-line options</source>
-        <translation>Mostra il messaggio di aiuto Bitcoin Green Core per ottenere un elenco con le possibili opzioni di riga di comando Bitcoin Green</translation>
+        <source>Show the Bitcoin Neutral Core help message to get a list with possible Bitcoin Neutral command-line options</source>
+        <translation>Mostra il messaggio di aiuto Bitcoin Neutral Core per ottenere un elenco con le possibili opzioni di riga di comando Bitcoin Neutral</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -745,8 +745,8 @@ MultiSend: %1</translation>
         <translation>Cerca</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (bitcoingreen.conf).</source>
-        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (bitcoingreen.conf)</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (bitcoinneutral.conf).</source>
+        <translation>Non tutte le transazioni verranno visualizzate. Per vedere tutte le transazioni è necessario aggiungere txindex=1 nel file di configurazione (bitcoinneutral.conf)</translation>
     </message>
 </context>
 <context>
@@ -880,8 +880,8 @@ MultiSend: %1</translation>
         <translation>versione</translation>
     </message>
     <message>
-        <source>Bitcoin Green Core</source>
-        <translation>Bitcoin Green Core</translation>
+        <source>Bitcoin Neutral Core</source>
+        <translation>Bitcoin Neutral Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -907,8 +907,8 @@ MultiSend: %1</translation>
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>Bitcoin Green Core</source>
-        <translation>Bitcoin Green Core</translation>
+        <source>Bitcoin Neutral Core</source>
+        <translation>Bitcoin Neutral Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1082,8 +1082,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The BITG address to sign the message with</source>
-        <translation>L'indirizzo BITG per firmare il messaggio con</translation>
+        <source>The BTCN address to sign the message with</source>
+        <translation>L'indirizzo BTCN per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1106,16 +1106,16 @@ MultiSend: %1</translation>
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this BITG address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo BITG</translation>
+        <source>Sign the message to prove you own this BTCN address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo BTCN</translation>
     </message>
     <message>
-        <source>The BITG address the message was signed with</source>
-        <translation>L'indirizzo BITG con cui è stato firmato il messaggio</translation>
+        <source>The BTCN address the message was signed with</source>
+        <translation>L'indirizzo BTCN con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified BITG address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo BITG specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified BTCN address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo BTCN specificato </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1153,8 +1153,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Green Core</source>
-        <translation>Bitcoin Green Core</translation>
+        <source>Bitcoin Neutral Core</source>
+        <translation>Bitcoin Neutral Core</translation>
     </message>
     </context>
 <context>
@@ -1249,7 +1249,7 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>bitcoingreen-core</name>
+    <name>bitcoinneutral-core</name>
     <message>
         <source>Error</source>
         <translation>Errore</translation>

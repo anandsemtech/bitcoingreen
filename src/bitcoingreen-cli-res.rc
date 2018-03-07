@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "BitcoinGreen"
-            VALUE "FileDescription",    "bitcoingreen-cli (OSS RPC client for Bitcoin Green)"
+            VALUE "CompanyName",        "BitcoinNeutral"
+            VALUE "FileDescription",    "bitcoinneutral-cli (OSS RPC client for Bitcoin Neutral)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "bitcoingreen-cli"
+            VALUE "InternalName",       "bitcoinneutral-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "bitcoingreen-cli.exe"
-            VALUE "ProductName",        "bitcoingreen-cli"
+            VALUE "OriginalFilename",   "bitcoinneutral-cli.exe"
+            VALUE "ProductName",        "bitcoinneutral-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

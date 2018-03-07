@@ -96,7 +96,7 @@ public:
 };
 
 /**
- * Bitcoin Green RPC command dispatcher.
+ * Bitcoin Neutral RPC command dispatcher.
  */
 class CRPCTable
 {

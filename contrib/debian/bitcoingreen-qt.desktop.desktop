@@ -1,11 +1,11 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=BitcoinGreen
-Comment=BitcoinGreen P2P Cryptocurrency
-Exec=bitcoingreen-qt %u
+Name=BitcoinNeutral
+Comment=BitcoinNeutral P2P Cryptocurrency
+Exec=bitcoinneutral-qt %u
 Terminal=false
 Type=Application
-Icon=bitcoingreen128
-MimeType=x-scheme-handler/bitcoingreen;
+Icon=bitcoinneutral128
+MimeType=x-scheme-handler/bitcoinneutral;
 Categories=Office;Finance;
-Name[en_US]=bitcoingreen-qt.desktop
+Name[en_US]=bitcoinneutral-qt.desktop

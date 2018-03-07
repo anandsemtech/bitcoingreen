@@ -1,19 +1,19 @@
 [Unit]
-Description=Bitcoin Green's distributed currency daemon
+Description=Bitcoin Neutral's distributed currency daemon
 After=network.target
 
 [Service]
-User=bitcoingreen
-Group=bitcoingreen
+User=bitcoinneutral
+Group=bitcoinneutral
 
 Type=forking
-PIDFile=/var/lib/bitcoingreend/bitcoingreend.pid
+PIDFile=/var/lib/bitcoinneutrald/bitcoinneutrald.pid
 
-ExecStart=/usr/bin/bitcoingreend -daemon -pid=/var/lib/bitcoingreend/bitcoingreend.pid \
-          -conf=/etc/bitcoingreen/bitcoingreen.conf -datadir=/var/lib/bitcoingreend
+ExecStart=/usr/bin/bitcoinneutrald -daemon -pid=/var/lib/bitcoinneutrald/bitcoinneutrald.pid \
+          -conf=/etc/bitcoinneutral/bitcoinneutral.conf -datadir=/var/lib/bitcoinneutrald
 
-ExecStop=-/usr/bin/bitcoingreen-cli -conf=/etc/bitcoingreen/bitcoingreen.conf \
-         -datadir=/var/lib/bitcoingreend stop
+ExecStop=-/usr/bin/bitcoinneutral-cli -conf=/etc/bitcoinneutral/bitcoinneutral.conf \
+         -datadir=/var/lib/bitcoinneutrald stop
 
 Restart=always
 PrivateTmp=true

@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: bitcoingreend.service
-Upstart: bitcoingreend.conf
-OpenRC:  bitcoingreend.openrc
-         bitcoingreend.openrcconf
-CentOS:  bitcoingreend.init
+SystemD: bitcoinneutrald.service
+Upstart: bitcoinneutrald.conf
+OpenRC:  bitcoinneutrald.openrc
+         bitcoinneutrald.openrcconf
+CentOS:  bitcoinneutrald.init
 
 have been made available to assist packagers in creating node packages here.
 

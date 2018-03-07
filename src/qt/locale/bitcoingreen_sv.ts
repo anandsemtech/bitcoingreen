@@ -58,12 +58,12 @@
         <translation>Mottagar adresser</translation>
     </message>
     <message>
-        <source>These are your BITG addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Det här är dina BITG adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
+        <source>These are your BTCN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Det här är dina BTCN adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
     </message>
     <message>
-        <source>These are your BITG addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Det här är dina BITG adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
+        <source>These are your BTCN addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Det här är dina BTCN adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -160,16 +160,16 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
-        <source>Bitcoin Green will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BITGs from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin Green kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina BITGs från att bli stulna av skadeprogram som infekterat din dator.</translation>
+        <source>Bitcoin Neutral will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BTCNs from being stolen by malware infecting your computer.</source>
+        <translation>Bitcoin Neutral kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina BTCNs från att bli stulna av skadeprogram som infekterat din dator.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Är du säker på att du vill kryptera din plånbok?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITG&lt;/b&gt;!</source>
-        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA BITG&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTCN&lt;/b&gt;!</source>
+        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA BTCN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -223,8 +223,8 @@
         <translation>BIP 38 Kryptering</translation>
     </message>
     <message>
-        <source>Enter a BITG Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Ange en BITG adress som du vill kryptera med BIP 38.
+        <source>Enter a BTCN Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Ange en BTCN adress som du vill kryptera med BIP 38.
 Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den krypterade privata nyckeln.</translation>
     </message>
     <message>
@@ -232,8 +232,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Adress:</translation>
     </message>
     <message>
-        <source>The BITG address to sign the message with</source>
-        <translation>BITG adressen för signera meddelandet med</translation>
+        <source>The BTCN address to sign the message with</source>
+        <translation>BTCN adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -264,8 +264,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this BITG address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna BITG adress</translation>
+        <source>Sign the message to prove you own this BTCN address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna BTCN adress</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -288,12 +288,12 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Ange BIP 38 krypterade privata nyckeln. Ange lösenfrasen i med mittersta boxen. Tryck på krypetra nyckel för att beräkna den privata nyckeln. Efter att nyckeln är avkrypterad, Tryck på 'Importera Adress' kommer att lägga till denna privata nyckel till plånboken.</translation>
     </message>
     <message>
-        <source>The BITG address the message was signed with</source>
-        <translation>BITG adressen meddelandet blev signerat med</translation>
+        <source>The BTCN address the message was signed with</source>
+        <translation>BTCN adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified BITG address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika BITG adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified BTCN address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika BTCN adressen.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -583,16 +583,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>flik vertygsrad</translation>
     </message>
     <message>
-        <source>Bitcoin Green Core</source>
-        <translation>Bitcoin Green Kärna</translation>
+        <source>Bitcoin Neutral Core</source>
+        <translation>Bitcoin Neutral Kärna</translation>
     </message>
     <message>
-        <source>Send coins to a BITG address</source>
-        <translation>Skicka mynt till en BITG adress</translation>
+        <source>Send coins to a BTCN address</source>
+        <translation>Skicka mynt till en BTCN adress</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoingreen: URIs)</source>
-        <translation>Begär betalning (genererar QR kod och bitcoingreen: URls)</translation>
+        <source>Request payments (generates QR codes and bitcoinneutral: URIs)</source>
+        <translation>Begär betalning (genererar QR kod och bitcoinneutral: URls)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -603,24 +603,24 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Utforska masternoder</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Green Core</source>
-        <translation>Om Bitcoin Green Kärnan</translation>
+        <source>&amp;About Bitcoin Neutral Core</source>
+        <translation>Om Bitcoin Neutral Kärnan</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin Green Core</source>
-        <translation>Visa information om Bitcoin Green Kärnan</translation>
+        <source>Show information about Bitcoin Neutral Core</source>
+        <translation>Visa information om Bitcoin Neutral Kärnan</translation>
     </message>
     <message>
-        <source>Modify configuration options for Bitcoin Green</source>
-        <translation>Ändra konfigurationsval för Bitcoin Green</translation>
+        <source>Modify configuration options for Bitcoin Neutral</source>
+        <translation>Ändra konfigurationsval för Bitcoin Neutral</translation>
     </message>
     <message>
-        <source>Sign messages with your BITG addresses to prove you own them</source>
-        <translation>Signera meddelanden med din BITG adress för att visa att du äger dem</translation>
+        <source>Sign messages with your BTCN addresses to prove you own them</source>
+        <translation>Signera meddelanden med din BTCN adress för att visa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified BITG addresses</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika BITG adressen.</translation>
+        <source>Verify messages to ensure they were signed with specified BTCN addresses</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika BTCN adressen.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -631,8 +631,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kryptera och avkryptera privata nycklar genom användning av lösenfras</translation>
     </message>
     <message>
-        <source>Bitcoin Green Core client</source>
-        <translation>Bitcoin Green kärn klient</translation>
+        <source>Bitcoin Neutral Core client</source>
+        <translation>Bitcoin Neutral kärn klient</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -837,15 +837,15 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Green Core</source>
-        <translation>Bitcoin Green Kärna</translation>
+        <source>Bitcoin Neutral Core</source>
+        <translation>Bitcoin Neutral Kärna</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Bitcoin Green Core</source>
-        <translation>Bitcoin Green Kärna</translation>
+        <source>Bitcoin Neutral Core</source>
+        <translation>Bitcoin Neutral Kärna</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1095,8 +1095,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The BITG address to sign the message with</source>
-        <translation>BITG adressen för signera meddelandet med</translation>
+        <source>The BTCN address to sign the message with</source>
+        <translation>BTCN adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1119,16 +1119,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this BITG address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna BITG adress</translation>
+        <source>Sign the message to prove you own this BTCN address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna BTCN adress</translation>
     </message>
     <message>
-        <source>The BITG address the message was signed with</source>
-        <translation>BITG adressen meddelandet blev signerat med</translation>
+        <source>The BTCN address the message was signed with</source>
+        <translation>BTCN adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified BITG address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika BITG adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified BTCN address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika BTCN adressen.</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1170,8 +1170,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Green Core</source>
-        <translation>Bitcoin Green Kärna</translation>
+        <source>Bitcoin Neutral Core</source>
+        <translation>Bitcoin Neutral Kärna</translation>
     </message>
     </context>
 <context>
@@ -1354,7 +1354,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     </message>
     </context>
 <context>
-    <name>bitcoingreen-core</name>
+    <name>bitcoinneutral-core</name>
     <message>
         <source>Error</source>
         <translation>Fel</translation>

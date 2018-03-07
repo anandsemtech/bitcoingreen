@@ -242,10 +242,10 @@ UniValue stop(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop Bitcoin Green server.");
+            "\nStop Bitcoin Neutral server.");
     // Shutdown will take long enough that the response should get back
     StartShutdown();
-    return "Bitcoin Green server stopping";
+    return "Bitcoin Neutral server stopping";
 }
 
 
@@ -327,33 +327,33 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* Bitcoin Green features */
-        {"bitcoingreen", "masternode", &masternode, true, true, false},
-        {"bitcoingreen", "listmasternodes", &listmasternodes, true, true, false},
-        {"bitcoingreen", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"bitcoingreen", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"bitcoingreen", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"bitcoingreen", "masternodedebug", &masternodedebug, true, true, false},
-        {"bitcoingreen", "startmasternode", &startmasternode, true, true, false},
-        {"bitcoingreen", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"bitcoingreen", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"bitcoingreen", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"bitcoingreen", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"bitcoingreen", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"bitcoingreen", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"bitcoingreen", "mnbudget", &mnbudget, true, true, false},
-        {"bitcoingreen", "preparebudget", &preparebudget, true, true, false},
-        {"bitcoingreen", "submitbudget", &submitbudget, true, true, false},
-        {"bitcoingreen", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"bitcoingreen", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"bitcoingreen", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"bitcoingreen", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"bitcoingreen", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"bitcoingreen", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"bitcoingreen", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"bitcoingreen", "checkbudgets", &checkbudgets, true, true, false},
-        {"bitcoingreen", "mnsync", &mnsync, true, true, false},
-        {"bitcoingreen", "spork", &spork, true, true, false},
+        /* Bitcoin Neutral features */
+        {"bitcoinneutral", "masternode", &masternode, true, true, false},
+        {"bitcoinneutral", "listmasternodes", &listmasternodes, true, true, false},
+        {"bitcoinneutral", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"bitcoinneutral", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"bitcoinneutral", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"bitcoinneutral", "masternodedebug", &masternodedebug, true, true, false},
+        {"bitcoinneutral", "startmasternode", &startmasternode, true, true, false},
+        {"bitcoinneutral", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"bitcoinneutral", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"bitcoinneutral", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"bitcoinneutral", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"bitcoinneutral", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"bitcoinneutral", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"bitcoinneutral", "mnbudget", &mnbudget, true, true, false},
+        {"bitcoinneutral", "preparebudget", &preparebudget, true, true, false},
+        {"bitcoinneutral", "submitbudget", &submitbudget, true, true, false},
+        {"bitcoinneutral", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"bitcoinneutral", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"bitcoinneutral", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"bitcoinneutral", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"bitcoinneutral", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"bitcoinneutral", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"bitcoinneutral", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"bitcoinneutral", "checkbudgets", &checkbudgets, true, true, false},
+        {"bitcoinneutral", "mnsync", &mnsync, true, true, false},
+        {"bitcoinneutral", "spork", &spork, true, true, false},
 #ifdef ENABLE_WALLET
 
         /* Wallet */
@@ -1070,7 +1070,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> bitcoingreen-cli " + methodname + " " + args + "\n";
+    return "> bitcoinneutral-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

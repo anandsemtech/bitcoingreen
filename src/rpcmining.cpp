@@ -98,7 +98,7 @@ UniValue getgenerate(const UniValue& params, bool fHelp)
         throw runtime_error(
             "getgenerate\n"
             "\nReturn if the server is set to generate coins or not. The default is false.\n"
-            "It is set with the command line argument -gen (or bitcoingreen.conf setting gen)\n"
+            "It is set with the command line argument -gen (or bitcoinneutral.conf setting gen)\n"
             "It can also be set with the setgenerate call.\n"
             "\nResult\n"
             "true|false      (boolean) If the server is set to generate coins or not\n"
@@ -252,7 +252,7 @@ UniValue getmininginfo(const UniValue& params, bool fHelp)
 }
 
 
-// NOTE: Unlike wallet RPC (which use BITG values), mining RPCs follow GBT (BIP 22) in using satoshi amounts
+// NOTE: Unlike wallet RPC (which use BTCN values), mining RPCs follow GBT (BIP 22) in using satoshi amounts
 UniValue prioritisetransaction(const UniValue& params, bool fHelp)
 {
     if (fHelp || params.size() != 3)
@@ -414,10 +414,10 @@ UniValue getblocktemplate(const UniValue& params, bool fHelp)
         throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid mode");
 
     if (vNodes.empty())
-        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "Bitcoin Green is not connected!");
+        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "Bitcoin Neutral is not connected!");
 
     if (IsInitialBlockDownload())
-        throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "Bitcoin Green is downloading blocks...");
+        throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "Bitcoin Neutral is downloading blocks...");
 
     static unsigned int nTransactionsUpdatedLast;
 

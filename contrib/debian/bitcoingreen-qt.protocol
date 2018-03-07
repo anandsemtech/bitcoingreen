@@ -1,6 +1,6 @@
 [Protocol]
-exec=bitcoingreen-qt '%u'
-protocol=bitcoingreen
+exec=bitcoinneutral-qt '%u'
+protocol=bitcoinneutral
 input=none
 output=none
 helper=true

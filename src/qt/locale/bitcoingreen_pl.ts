@@ -144,8 +144,8 @@
         <translation>Czy na pewno chcesz zakodować portfel?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITG&lt;/b&gt;!</source>
-        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE BITG!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTCN&lt;/b&gt;!</source>
+        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE BTCN!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -223,8 +223,8 @@
         <translation>Zakodowany klucz:</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this BITG address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres BITG jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this BTCN address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres BTCN jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -514,16 +514,16 @@
         <translation>&amp;Pomoc</translation>
     </message>
     <message>
-        <source>Bitcoin Green Core</source>
-        <translation>&amp;Rdzeń Bitcoin Green</translation>
+        <source>Bitcoin Neutral Core</source>
+        <translation>&amp;Rdzeń Bitcoin Neutral</translation>
     </message>
     <message>
-        <source>Send coins to a BITG address</source>
-        <translation>Wyślij monety do adresu BITG</translation>
+        <source>Send coins to a BTCN address</source>
+        <translation>Wyślij monety do adresu BTCN</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoingreen: URIs)</source>
-        <translation>Zarządaj płatności (generuje kod QR i bitcoingreen:URI)</translation>
+        <source>Request payments (generates QR codes and bitcoinneutral: URIs)</source>
+        <translation>Zarządaj płatności (generuje kod QR i bitcoinneutral:URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -534,24 +534,24 @@
         <translation>Przeglądaj masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Green Core</source>
+        <source>&amp;About Bitcoin Neutral Core</source>
         <translation>&amp;O rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin Green Core</source>
+        <source>Show information about Bitcoin Neutral Core</source>
         <translation>Pokaż informacje o rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Modify configuration options for Bitcoin Green</source>
-        <translation>Modyfikuj opcje konfiguracji Bitcoin Green</translation>
+        <source>Modify configuration options for Bitcoin Neutral</source>
+        <translation>Modyfikuj opcje konfiguracji Bitcoin Neutral</translation>
     </message>
     <message>
-        <source>Sign messages with your BITG addresses to prove you own them</source>
-        <translation>Zatwierdź wiadomość z twoimi adresami BITG, by udowodnić, że jesteś w ich posiadaniu</translation>
+        <source>Sign messages with your BTCN addresses to prove you own them</source>
+        <translation>Zatwierdź wiadomość z twoimi adresami BTCN, by udowodnić, że jesteś w ich posiadaniu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified BITG addresses</source>
-        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu BITG</translation>
+        <source>Verify messages to ensure they were signed with specified BTCN addresses</source>
+        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu BTCN</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -578,8 +578,8 @@
         <translation>Otwórz &amp;Plik konfiguracji Masternode</translation>
     </message>
     <message>
-        <source>Open a bitcoingreen: URI or payment request</source>
-        <translation>Otwórz bitcoingreen: URI i żądanie zapłaty</translation>
+        <source>Open a bitcoinneutral: URI or payment request</source>
+        <translation>Otwórz bitcoinneutral: URI i żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -590,12 +590,12 @@
         <translation>Okno eksplorera bloków</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Green Core help message to get a list with possible Bitcoin Green command-line options</source>
-        <translation>Pokaż wiadomość pomocy rdzenia Bitcoin Green, aby dostać listę możliwych opcji Bitcoin Green command-line</translation>
+        <source>Show the Bitcoin Neutral Core help message to get a list with possible Bitcoin Neutral command-line options</source>
+        <translation>Pokaż wiadomość pomocy rdzenia Bitcoin Neutral, aby dostać listę możliwych opcji Bitcoin Neutral command-line</translation>
     </message>
     <message>
-        <source>Bitcoin Green Core client</source>
-        <translation>Rdzeń Bitcoin Green klient</translation>
+        <source>Bitcoin Neutral Core client</source>
+        <translation>Rdzeń Bitcoin Neutral klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -904,8 +904,8 @@ MultiWysyłlka: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Green Core</source>
-        <translation>&amp;Rdzeń Bitcoin Green</translation>
+        <source>Bitcoin Neutral Core</source>
+        <translation>&amp;Rdzeń Bitcoin Neutral</translation>
     </message>
     </context>
 <context>
@@ -919,8 +919,8 @@ MultiWysyłlka: %1</translation>
         <translation>Użyj niestandardowej ścieżki danych</translation>
     </message>
     <message>
-        <source>Bitcoin Green Core</source>
-        <translation>&amp;Rdzeń Bitcoin Green</translation>
+        <source>Bitcoin Neutral Core</source>
+        <translation>&amp;Rdzeń Bitcoin Neutral</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1161,12 +1161,12 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Zezwól na przychodzące połączenia</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin Green after logging in to the system.</source>
-        <translation>Automatycznie uruchom Bitcoin Green po zalogowaniu do systemu</translation>
+        <source>Automatically start Bitcoin Neutral after logging in to the system.</source>
+        <translation>Automatycznie uruchom Bitcoin Neutral po zalogowaniu do systemu</translation>
     </message>
     <message>
-        <source>&amp;Start Bitcoin Green on system login</source>
-        <translation>&amp;Uruchom Bitcoin Green podczas logowania do systemu</translation>
+        <source>&amp;Start Bitcoin Neutral on system login</source>
+        <translation>&amp;Uruchom Bitcoin Neutral podczas logowania do systemu</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1185,12 +1185,12 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin Green.</source>
-        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie Bitcoin Green</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin Neutral.</source>
+        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie Bitcoin Neutral</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin Green network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią Bitcoin Green poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the Bitcoin Neutral network through a SOCKS5 proxy.</source>
+        <translation>Połącz z siecią Bitcoin Neutral poprzez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1361,8 +1361,8 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Liczba</translation>
     </message>
     <message>
-        <source>Enter a BITG address (e.g. %1)</source>
-        <translation>Wprowadź adres BITG (np. %1)</translation>
+        <source>Enter a BTCN address (e.g. %1)</source>
+        <translation>Wprowadź adres BTCN (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1800,8 +1800,8 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this BITG address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres BITG jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this BTCN address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres BTCN jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1835,8 +1835,8 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Green Core</source>
-        <translation>&amp;Rdzeń Bitcoin Green</translation>
+        <source>Bitcoin Neutral Core</source>
+        <translation>&amp;Rdzeń Bitcoin Neutral</translation>
     </message>
     </context>
 <context>
@@ -1927,7 +1927,7 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
     </message>
     </context>
 <context>
-    <name>bitcoingreen-core</name>
+    <name>bitcoinneutral-core</name>
     <message>
         <source>Error</source>
         <translation>Błąd</translation>
